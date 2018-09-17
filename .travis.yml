@@ -6,4 +6,4 @@ python:
     
 script:
   - echo $HOME
-  - cd ~/build/juliennyambal/dumb_test/; pytest dumb_test.py
+  - cd ~/build/juliennyambal/dumb_folder/; pytest dumb_test.py
