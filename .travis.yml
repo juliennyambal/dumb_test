@@ -5,4 +5,5 @@ python:
     - "2.7"
     
 script:
-  - cd dumb_test/; pytest dumb_test.py
+  - echo $HOME
+  - cd ~/dumb_test/; pytest dumb_test.py
