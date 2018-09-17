@@ -5,4 +5,4 @@ python:
     - "2.7"
     
 script:
-  - pytest dumb_test.py
+  - cd dumb_test; pytest dumb_test.py
